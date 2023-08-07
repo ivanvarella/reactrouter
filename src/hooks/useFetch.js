@@ -92,10 +92,5 @@ export const useFetch = (url) => {
     httpRequest();
   }, [config, method, url, itemID]);
 
-  //Delete later
-  if (data) {
-    console.log("Data: ", data);
-  }
-
   return { data, httpConfig, loading, error };
 };
