@@ -35,7 +35,7 @@ function App() {
           <Route path="/search" element={<Search />} />
           {/* 10- Redirect */}
           <Route path="/company" element={<Navigate to="/about" />} />
-          /* 7- No match route (404) */}
+          {/* 7- No match route (404) */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
